@@ -1,22 +1,22 @@
-// import assert from 'assert';
-// import isWeekday from '../yearsAgo.js';
+import assert from 'assert';
+import yearsAgo from '../yearsAgo.js';
 
 
-// // console.log(greet("hlananani"));
-// describe('Test for the yearsAgo function' , function(){
-//     it("It should return how many years ago that year is from the current year. " , function(){
+// console.log(greet("hlananani"));
+describe('Test for the yearsAgo function' , function(){
+    it("It should return ',46 years' if  function  yearsAgo is called with 1976. " , function(){
         
-//         assert.equal("46",yearsAgo("1976"),"this should be true"); 
+        assert.equal(46,yearsAgo(1976),"this should be true"); 
         
-//         // assert.deepEqual([2,2],[2,2]);
-//     });
-//     it("It should return how many years ago that year is from the current year." , function(){
+        // assert.deepEqual([2,2],[2,2]);
+    });
+    it("It should return ',22 years' function  yearsAgo is called with2000." , function(){
         
-//         assert.equal("22",yearsAgo("2000"),"this should be true"); 
+        assert.equal(22,yearsAgo(2000),"this should be true"); 
 
-//         // assert.deepEqual([2,2],[2,2]);
-//     });2000
+        // assert.deepEqual([2,2],[2,2]);
+    });2000
    
 
-// });
+});
 // // console.log(greet('Hlanganani'))
